@@ -1,0 +1,26 @@
+
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./timeIngredentsSection.css);
+@import url(./preparation.css);
+@import url(./image.css);
+body{
+    max-width: 65%;
+    
+     
+     margin: auto;
+}
+
+h1{
+     display: flex;
+     justify-content: center;
+     color: brown;
+     
+     
+
+}
+
+
+
+
+

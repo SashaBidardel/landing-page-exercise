@@ -1,0 +1,30 @@
+.timeSection{
+    border: 1px solid rgb(14, 13, 13);
+    display:flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 20%;
+    flex-direction: column;
+    border-radius: 10%;
+}
+
+.rectangle{
+    margin: auto;
+    width: 53%; 
+    height: 10%;
+    border: 1px solid rgb(14, 13, 13);
+}
+.ingredents{
+    border: 1px solid rgb(14, 13, 13);
+    display:flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 6%;
+    width: 80%;
+    flex-direction: column;
+}
+.align{
+   display: flex; 
+   flex-direction: row;
+   
+}
