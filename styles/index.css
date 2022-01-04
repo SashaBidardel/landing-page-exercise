@@ -19,8 +19,16 @@ h1{
      
 
 }
+h2,h3{
+     font-size: medium;
+     color: blue;
+     text-align:center;
+}
 
-
-
+.form{
+     margin-left: 1%;
+     width: 80%;
+     margin-bottom: 2%;
+}
 
 

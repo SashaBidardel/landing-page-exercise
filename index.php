@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receta ghormeh sabzi</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <head>
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Last-Modified" content="0">
+  <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+</head>
+
 </head>
 <body>
     <header>
@@ -34,9 +41,21 @@
             </ul>
             </div>
             <div class="timeSection" >
-                <h1>Time</h1>
-                <div class="rectangle"></div>
-                <div class="rectangle"></div>
+                <h2 class="hola">Rellene le formulario y le mandaremos informacíon muy interesante</h2>
+                   
+                    <form method="post">
+                        <label for="name">Nombre</label>
+                        <input class="form" type="text" name="nombre" id="name" placeholder="nombre">
+                        <label for="surname">Apellidos</label>
+                        <input class="form" type="text" name="apellidos" id="surname"placeholder="apellidos">
+                        <label for="email">Correo</label>
+                        <input class="form" type="email" name="correo" id="correo"placeholder="correo">
+                        <input type="submit" name="btn" value="registrar">
+                    </form>  
+                   <?php
+                   include ('registrar.php');
+                   ?>
+                
 
             </div> 
         </section>
